@@ -8,4 +8,4 @@ numOfPpl = int(input("How many people to Split the bill? "))
 tip = int(input("What percentage would you like to tip? "))
 # Each Person should pay
 pay = (((bill+((tip)/100))/numOfPpl))
-print ("Each person should pay: " + "$" ,  pay)
+print (f"Each person should pay: ${pay}")
