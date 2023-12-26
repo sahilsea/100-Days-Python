@@ -21,7 +21,7 @@ rndm_numbers = random.choices(numbers, k = nr_numbers)
 pswd_list = (rndm_letters + rndm_numbers + rndm_symbols)
 pswd_length = nr_letters + nr_numbers + nr_symbols
 random.shuffle(pswd_list)
-print(pswd_list)
+print("change")
 
 password = ""
 for loop_password in pswd_list:
