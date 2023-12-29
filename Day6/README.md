@@ -7,4 +7,6 @@
 3. While loop
     - For vs While loop
     - When to use While loope over for loop.
-    
+4. Projects
+    - Escape the Maze
+    - Hangman Game
