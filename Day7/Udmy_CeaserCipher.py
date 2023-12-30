@@ -5,6 +5,7 @@ print(art.logo)
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
+shift = shift % 26
 # Function for encripting the text
 def ceaser(text, shift, direction):
     # Getting the index of all the text given by the user and storing it in list.
