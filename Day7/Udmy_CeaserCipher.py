@@ -23,6 +23,16 @@ def ceaser(text, shift, direction):
             cypher += new_letter
         else:
             cypher += letter
-    print(f"Your {direction}d text is : {cypher}")
+    print(f"Your {direction}d text is : {cypher} \n")
 
 ceaser(text, shift, direction)
+restart_Y_N = input ("Type yes if you want to restart the program and no if not.: ").lower()
+def restart():
+    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
+    text = input("Type your message:\n").lower()
+    shift = int(input("Type the shift number:\n"))
+    shift = shift % 25
+    ceaser(text, shift, direction)
+
+if restart_Y_N == "yes":
+    restart()
