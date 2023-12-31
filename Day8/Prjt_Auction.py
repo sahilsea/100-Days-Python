@@ -18,12 +18,12 @@ def highest_bidder():
 more = True
 while more == True:
     name = input("Enter your Name: ")
-    bid = int(input("Enter your Bid: "))
+    bid = int(input("Enter your Bid: $"))
     auction_data[name] = bid
     people = input("Is there More Bidder, type Enter if yes and n for no: ")
     if people == "n":
         more = False
-        
+
         highest_bidder()
     else:
         clear_screen()
