@@ -7,7 +7,7 @@ print(Hangman_art.logo)
 #word_list = ["ardvark", "baboon", "camel"]
 # Choosing a random word from word list.
 rand_word = random.choice(Hangman_word_list.word_list)
-print(rand_word)
+print(f"length of the word is {len(rand_word)}")
 # List for Hangman word
 display = []
 for j in rand_word:
@@ -48,6 +48,7 @@ while i < len(rand_word):
     if lives == 0:
          i = len(rand_word)
          print("You Lose")
+         print(rand_word)
     elif "_" not in display:
         i = len(rand_word)
         print("You Win")
