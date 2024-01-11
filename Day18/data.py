@@ -2,7 +2,7 @@ question_data = [
                      {"type": "boolean",
                       "difficulty": "easy",
                       "category": "Science: Computers",
-                      "question": "The programming language &quot;Python&quot; is based off a modified version of &quot;JavaScript&quot;.",
+                      "question": "The programming language 'Python' is based off a modified version of 'JavaScript';.",
                       "correct_answer": "False",
                       "incorrect_answers": ["True"]},
                      {"type": "boolean", "difficulty": "easy", "category": "Science: Computers",
