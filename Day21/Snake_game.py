@@ -10,6 +10,7 @@ screen.tracer(0)
 
 aall_trtle = []
 
+
 x_cord = 20
 for i in range(0, 3):
     new_trtle = Turtle(shape="square")
@@ -29,7 +30,7 @@ while game_is_on:
         new_y = aall_trtle[trtle_num - 1].ycor()
         aall_trtle[trtle_num].goto(new_x, new_y)
     aall_trtle[0].forward(20)
-    aall_trtle[0].left(90)
+
 
 
 
