@@ -1,0 +1,7 @@
+1. Window.
+1. Ball Movement.
+2. Paddle Design.
+3. Ball Collision.
+4. Line devider.
+5. Wall Collision.
+6. Score.
