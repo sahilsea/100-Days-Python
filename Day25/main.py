@@ -28,7 +28,7 @@ while game_is_on:
 
     # Player collision with the Cars
     for car_i in car.car_list:
-        if player.distance(car_i) < 15:
+        if player.distance(car_i) < 20:
             game_is_on = False
             level.game_over()
 
