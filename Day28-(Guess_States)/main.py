@@ -3,7 +3,7 @@ import pandas
 
 # Create the Screen for the Game
 screen = turtle.Screen()
-screen.title("U.S. States Game")
+screen.title("Bihar District Guessing Game")
 image = "bihar90.gif"
 screen.setup(width= 1000)
 screen.addshape(image)
@@ -20,8 +20,8 @@ all_states = data.state.to_list()
 
 
 # Checking if the state that user entered , exist in the list of all states
-while len(guessed_state) < 50:
-    answer = screen.textinput(title= f"Guessed State = {score}/50", prompt= "Guess another State" ).title()
+while len(guessed_state) < 38:
+    answer = screen.textinput(title= f"Guessed Districts = {score}/38", prompt= "Guess another State" ).title()
     if answer == "Exit":
         break
     if answer in all_states:
