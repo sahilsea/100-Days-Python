@@ -1,0 +1,26 @@
+*{
+    align-items: center;
+    align-self: center;
+    align-tracks: center;
+    font-weight: normal;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+
+#red {
+    color: red;
+}
+#blue {
+    color: blue;
+}
+#orange {
+    color: orange;
+}
+#green {
+    color: green;
+}
+#yellow {
+    color: yellow;
+}
