@@ -31,8 +31,8 @@ for votes in all_votes:
 
 largest_vote = max(votes_)
 print(largest_vote)
-for title in anch_title:
-    print(title)  
+# for title in anch_title:
+    # print(title)  
 
 
 # print(f'Max Votes: {max_vote}\n Web Texts: {texts}\n Web links: {links} Votes:{votes_}')
