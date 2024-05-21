@@ -6,11 +6,11 @@
 print(2**3)
 
 # Order of operations
-PEMDAS
-()
-**
-* /
-+ -
+# PEMDAS
+# ()
+# **
+# * /
+# + -
 
 # Multiplication and Division are given same priority , so calculation is peformed that leftmost
 # Same applies for Addition and Substraction
