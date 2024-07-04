@@ -1,6 +1,7 @@
 # 100 Days of Python
 
-![LAB Wallpaper](https://github.com/sahilsea/100-Days-Code/assets/44132792/0bd075c0-ca4d-40e5-a846-41f556630ed9)
+![LAB Wallpaper](https://github.com/sahilsea/100-Days-Code/assets/44132792/c034c97b-4b12-4922-8857-2a407dbc8b5a)
+
 
 This is From the Course 100 days of python on Udemy by Angela yo. I completed 60 days of it due to my college schedule and assignments.
 
